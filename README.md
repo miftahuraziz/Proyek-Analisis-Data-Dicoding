@@ -11,4 +11,4 @@ pip install -r requirements.txt
 streamlit run dashboard.py
 ```
 ### 3. Visit online dashboard deployment
-(https://miftahuraziz-proyek-analisis-data-dic-dashboarddashboard-5fszcb.streamlit.app/) 
+[Streamlit Online Dashboard](https://miftahuraziz-proyek-analisis-data-dic-dashboarddashboard-5fszcb.streamlit.app/) 
