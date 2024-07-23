@@ -2,11 +2,13 @@
 Merupakan proyek akhir atau submission kelas Dicoding "Belajar Analisis Data dengan Python
 
 ## Guides
-### - Install all requirements 
+### 1. Install all requirements 
 ```
 pip install -r requirements.txt
 ```
-### - Run Streamlit dashboard 
+### 2. Run Streamlit dashboard 
 ```
 streamlit run dashboard.py
 ```
+### 3. Visit online dashboard deployment
+(https://miftahuraziz-proyek-analisis-data-dic-dashboarddashboard-5fszcb.streamlit.app/) 
