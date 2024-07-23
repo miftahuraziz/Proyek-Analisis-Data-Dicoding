@@ -3,5 +3,5 @@ Merupakan proyek akhir atau submission kelas Dicoding "Belajar Analisis Data den
 --
 ## Guides
 --
-- Install all requirements with 'pip install -r requirements.txt'
-- Run Streamlit dashboard with 'streamlit run dashboard.py' in dashboard directory
+- Install all requirements with `pip install -r requirements.txt`
+- Run Streamlit dashboard with `streamlit run dashboard.py` in dashboard directory
