@@ -33,8 +33,14 @@ def casual(day_df):
    casual_df = casual_df.reset_index()
    return casual_df
 
-hours_df = pd.read_csv("..\dashboard\hour_df_clean.csv")
-days_df = pd.read_csv("..\dashboard\day_df_clean.csv")
+#Gunakan ini untuk dashboard online
+hours_df = pd.read_csv("https://raw.githubusercontent.com/miftahuraziz/Proyek-Analisis-Data-Dicoding/main/dashboard/hour_df_clean.csv")
+days_df = pd.read_csv("https://raw.githubusercontent.com/miftahuraziz/Proyek-Analisis-Data-Dicoding/main/dashboard/day_df_clean.csv")
+
+#Gunakan ini untuk dashboard local dan disable kode di atas
+#hours_df = pd.read_csv("hour_df_clean.csv")
+#days_df = pd.read_csv("day_df_clean.csv")
+
 
 datetime_columns = ["date_time"]
 days_df.sort_values(by="date_time", inplace=True)
